@@ -3,8 +3,8 @@
 <section class="hero"><div class="kicker">SOFTWARE STEWARDSHIP, IN PUBLIC</div><h1>価値を理解し、<br>次につなぐ。</h1><p class="sub">長く使われてきたOSSには、それだけの理由がある。</p><div class="actions"><a class="btn primary" href="#join">最初のRESCUEへ →</a><a class="btn" href="#work">活動を見る</a></div></section><hr class="rule">
 <section class="section" id="work"><div class="section-head"><div><div class="cmd">$ ls ./work</div><h2>維持するために、直す。</h2></div><p>長く使われてきたOSSを調べ、必要な修正を加え、これからも使える状態に保つ。</p></div><div class="work">
 <div class="row"><div class="kind">CREATE</div><div class="project"><h3>jq-lite</h3><p>Perlでつくる、小さなJSONプロセッサ。</p></div><div class="arrow">↗</div></div>
-<div class="row"><div class="kind">RESCUE</div><div class="project"><h3><a href="https://github.com/kawamurashingo/cpan-rescue">CPAN Rescue</a></h3><p>止まったCPANディストリビューションを、次のメンテナーへつなぐ。</p></div><div class="arrow">↗</div></div>
-<div class="row"><div class="kind">SUSTAIN</div><div class="project"><h3><a href="https://github.com/kawamurashingo/DBD-ODBC">DBD::ODBC</a></h3><p>現行環境でCIを復旧。DBIとの互換性問題を切り分け、修正案まで検証済み。</p></div><div class="arrow">↗</div></div>
+<div class="row"><div class="kind">RESCUE</div><div class="project"><h3><a href="https://github.com/kawamurashingo/cpan-rescue">CPAN Rescue</a></h3><p>実際のCPAN保守を小さな作業に分け、レビューを通じて次のメンテナーを育てる。</p></div><div class="arrow">↗</div></div>
+<div class="row"><div class="kind">SUSTAIN</div><div class="project"><h3><a href="https://github.com/kawamurashingo/cpan-rescue/issues/25">DBD::ODBC</a></h3><p>Wesley Hindsが保守を引き継いだ。CIとDBI互換性修正案を用意し、上流との協力を調整中。</p></div><div class="arrow">↗</div></div>
 <div class="row"><div class="kind">SUSTAIN</div><div class="project"><h3><a href="https://github.com/kawamurashingo/Devel-CallChecker">Devel::CallChecker</a></h3><p>保守を引き継ぎ、0.010をリリース。</p></div><div class="arrow">↗</div></div></div></section><hr class="rule">
 <section class="section" id="sustainability"><div class="section-head"><div><div class="cmd">$ ./sustain</div><h2>メンテナンスを、続けられるものに。</h2></div><p>次のメンテナーを見つけるだけでは、長期的な保守は成立しない。重要なOSSには、保守に使える時間、レビューする人、継続的なテスト環境も必要です。</p></div><div class="work">
 <div class="row"><div class="kind">WHY</div><div class="project"><h3>持続可能なメンテナンス</h3><p>影響の大きなOSSでは、善意の無償作業だけで継続性、互換性テスト、レビュー、緊急対応を支え続けることが難しい場合があります。</p></div><div class="arrow">→</div></div>
@@ -12,15 +12,15 @@
 <div class="row"><div class="kind">CASE 01</div><div class="project"><h3><a href="https://github.com/kawamurashingo/cpan-rescue/issues/40">DBD::ODBCの持続可能性を検討する</a></h3><p>最初の具体例です。まず既存メンテナーの意思を確認し、実際の保守・互換性の課題と本番利用者を把握したうえで、小さな資金提供の実験が役立つかを検討します。</p></div><div class="arrow">↗</div></div>
 </div></section><hr class="rule">
 <section class="section" id="activity"><div class="section-head"><div><div class="cmd">$ tail -f ./activity.log</div><h2>最近の活動</h2></div><p>Open Stewardで進めているメンテナンスと開発。</p></div><div class="work">
-<div class="row"><div class="kind">2026.09</div><div class="project"><h3><a href="https://github.com/kawamurashingo/DBD-ODBC">DBD::ODBC</a></h3><p>現行LinuxでCIを復旧。DBIとの互換性問題を特定し、修正案を検証。</p></div><div class="arrow">↗</div></div>
+<div class="row"><div class="kind">2026.09</div><div class="project"><h3><a href="https://github.com/kawamurashingo/cpan-rescue/issues/25">DBD::ODBC</a></h3><p>Wesley Hindsが保守を引き継いだ。CIとDBI互換性修正案を用意し、上流との協力を調整中。</p></div><div class="arrow">↗</div></div>
 <div class="row"><div class="kind">2026</div><div class="project"><h3><a href="https://github.com/kawamurashingo/Devel-CallChecker">Devel::CallChecker 0.010</a></h3><p>保守を引き継ぎ、0.010をリリース。</p></div><div class="arrow">↗</div></div>
 <div class="row"><div class="kind">NOW</div><div class="project"><h3><a href="https://github.com/kawamurashingo/cpan-rescue">CPAN Rescue</a></h3><p>複数のCPANディストリビューションで、調査と保守の再開を進行中。</p></div><div class="arrow">↗</div></div>
 </div></section><hr class="rule"><section class="section" id="join"><div class="section-head"><div><div class="cmd">$ ./join</div><h2>参加する</h2></div><p>テスト、調査、レビューなど、必要な作業を公開しています。</p></div>
 <div class="join-grid">
-<a class="task" href="https://github.com/kawamurashingo/cpan-rescue/issues/37"><span class="n">01 · BEGINNER · 30–60 MIN</span><b>失敗を再現する</b><p>昔の不具合を今の環境で再現し、結果をIssueに残す。</p></a>
-<a class="task" href="https://github.com/kawamurashingo/cpan-rescue/issues/38"><span class="n">02 · BEGINNER · 1–2 HR</span><b>今のPerlで動かす</b><p>新しいPerlや依存モジュールで、テストがどうなるか確かめる。</p></a>
+<a class="task" href="https://github.com/kawamurashingo/cpan-rescue/issues/37"><span class="n">01 · BEGINNER · 30–60 MIN</span><b>失敗を再現する</b><p>今のPerlでテストを動かし、環境と結果をIssueに記録する。</p></a>
+<a class="task" href="https://github.com/kawamurashingo/cpan-rescue/issues/33"><span class="n">02 · BEGINNER · 1–2 HR</span><b>リリースの基準点を調べる</b><p>現在のリリースを確認し、テスト結果と環境を記録する。</p></a>
 <a class="task" href="https://github.com/kawamurashingo/cpan-rescue/issues/39"><span class="n">03 · EXPLORER · 1–2 HR</span><b>止まったOSSを調べる</b><p>更新履歴、管理状況、利用先を調べて記録する。</p></a>
-<a class="task" href="https://github.com/kawamurashingo/cpan-rescue/issues?q=is%3Aissue%20is%3Aopen%20%22Good%20First%20Rescue%22"><span class="n">04 · REVIEWER</span><b>修正案をレビューする</b><p>小さな修正が本当に安全か、もう一組の目で確かめる。</p></a>
-</div><div class="actions"><a class="btn primary" href="https://github.com/kawamurashingo/cpan-rescue/issues?q=is%3Aissue%20is%3Aopen%20%22Good%20First%20Rescue%22">最初のRESCUEを選ぶ →</a></div></section><hr class="rule">
+<a class="task" href="https://github.com/kawamurashingo/cpan-rescue/issues/34"><span class="n">04 · CONTRIBUTOR · 1–3 HR</span><b>PerlのCIを整える</b><p>既存のディストリビューションに控えめなCIマトリックスを作る。</p></a>
+</div><div class="actions"><a class="btn primary" href="https://github.com/kawamurashingo/cpan-rescue/blob/main/FIRST_CONTRIBUTOR.md">初参加ガイドを読む →</a></div></section><hr class="rule">
 <section class="verbs"><span>run it.</span><span>read it.</span><span>fix it.</span><span>fork it.</span><span class="dim">pass it on.</span></section>
 <footer><span>OPEN STEWARD</span><span>started by SHINGO · open to everyone</span></footer></main></body></html>
