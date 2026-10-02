@@ -25,8 +25,8 @@ Maintain software people already depend on. Prefer compatibility, evidence, test
 | Project | Role | What is happening |
 | --- | --- | --- |
 | [jq-lite](https://github.com/kawamurashingo) | Create | Building a small JSON-processing tool in Perl. |
-| [CPAN Rescue](https://github.com/kawamurashingo/cpan-rescue) | Rescue | Investigating and adopting CPAN distributions that need active stewardship. |
-| [DBD::ODBC](https://github.com/kawamurashingo/DBD-ODBC) | Rescue / Sustain | Adoption requested. Modern Linux CI restored and a DBI compatibility regression has a tested patch ready. |
+| [CPAN Rescue](https://github.com/kawamurashingo/cpan-rescue) | Rescue / Incubate | Growing new maintainers through small, reviewed tasks on real CPAN distributions; 2 distributions adopted and 1 post-adoption release published. |
+| [DBD::ODBC](https://github.com/kawamurashingo/DBD-ODBC) | Sustain | Adopted by Wesley Hinds. Collaboration is pending; CI work and a focused DBI compatibility fix are ready if welcomed upstream. |
 | [Devel::CallChecker](https://github.com/kawamurashingo/Devel-CallChecker) | Sustain | Rescued and released as 0.010 in 2026. |
 
 ## Principles
@@ -49,6 +49,6 @@ This is not a campaign against AI. AI can be a powerful tool for software archae
 
 ## Status
 
-Open Steward is beginning with Perl and CPAN because that ecosystem contains decades of useful, battle-tested software—and because long-lived software deserves active stewardship.
+Open Steward began with Perl and CPAN because that ecosystem contains decades of useful, battle-tested software. That work now also serves as a practical path for growing new maintainers through real, bounded maintenance tasks.
 
 The work is public. Results matter more than slogans.
