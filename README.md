@@ -49,6 +49,17 @@ This is not a campaign against AI. AI can be a powerful tool for software archae
 
 ## Status
 
-Open Steward began with Perl and CPAN because that ecosystem contains decades of useful, battle-tested software. That work now also serves as a practical path for growing new maintainers through real, bounded maintenance tasks.
+Open Steward began with Perl and CPAN because that ecosystem contains decades of useful, battle-tested software. CPAN Rescue is the operational source of truth for current rescue activity and now serves as a practical path for growing new maintainers through real, bounded maintenance tasks.
+
+Current CPAN Rescue outcomes include:
+
+- 2 distributions adopted
+- 1 post-adoption maintenance release published
+- 1 upstream PR merged
+- 1 additional upstream PR awaiting review
+- a five-stage maintainer path from Explorer to Maintainer / Steward
+- beginner-friendly maintenance tasks covering verification, baseline reconstruction, CI, and candidate investigation
+- an active rescue board with explicit next actions and blockers
+- sustainability work for high-impact CPAN infrastructure, including DBD::ODBC and a broader candidate portfolio
 
 The work is public. Results matter more than slogans.
